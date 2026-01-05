@@ -1,9 +1,19 @@
 {
   "mapCenter": [-8.055555556, 53.16944444],
-  "mapZoom": 5,
+  "mapZoom": 6,
   "groups": {
-    "No Presets": {
-      "airspaces": [""]
+    "R15 + R16": {
+      "airspaces": ["EIR15", "EIR16"]
+    },
+    "R15 + R16 + MOA4": {
+      "airspaces": ["EIR15", "EIR16", "MOA4"]
+    },
+    "R15 + R16 + MOA4/5": {
+      "airspaces": ["EIR15", "EIR16", "MOA4", "MOA5"]
+    },
+    "R15 + R16 + MOA3/4/5": {
+      "airspaces": ["EIR15", "EIR16", "MOA3", "MOA4", "MOA5"]
     }
   }
 }
+

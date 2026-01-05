@@ -12,7 +12,8 @@
                     "MOA4",
                     "MOA5",
                     "EIR15",
-                    "EIR16"
+                    "EIR16",
+                    "EIR16D"
                 ]
             },
             "geometry": {
@@ -56,7 +57,8 @@
                 "upperFL": 450,
                 "mustBeBookedWith": [
                     "EIR15",
-                    "EIR16"
+                    "EIR16",
+                    "EIR16D"
                 ]
             },
             "geometry": {
@@ -157,7 +159,8 @@
                 "mustBeBookedWith": [
                     "MOA4",
                     "EIR15",
-                    "EIR16"
+                    "EIR16",
+                    "EIR16D"
                 ]
             },
             "geometry": {
@@ -308,7 +311,8 @@
                 "lowerFL": 0,
                 "upperFL": 240,
                 "mustBeBookedWith": [
-                    "EIR15"
+                    "EIR15",
+                    "EIR16D"
                 ]
             },
             "geometry": {
@@ -380,9 +384,29 @@
                             53.1725
                         ],
                         [
-                            -6.566388889,
-                            53.1725
-                        ],
+                            -6.730555556,
+                            53.39416667
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "EIR16D",
+                "type": "R",
+                "lowerFL": 0,
+                "upperFL": 240,
+                "mustBeBookedWith": [
+                    "EIR15",
+                    "EIR16"
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
                         [
                             -6.428333333,
                             53.24416667
@@ -392,8 +416,12 @@
                             53.24361111
                         ],
                         [
-                            -6.730555556,
-                            53.39416667
+                            -6.566388889,
+                            53.1725
+                        ],
+                        [
+                            -6.428333333,
+                            53.24416667
                         ]
                     ]
                 ]
@@ -652,5 +680,4 @@
             }
         }
     ]
-
 }

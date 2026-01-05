@@ -3,17 +3,18 @@
   "mapZoom": 6,
   "groups": {
     "R15 + R16": {
-      "airspaces": ["EIR15", "EIR16"]
+      "airspaces": ["EIR15", "EIR16", "EIR16D"]
     },
     "R15 + R16 + MOA4": {
-      "airspaces": ["EIR15", "EIR16", "MOA4"]
+      "airspaces": ["EIR15", "EIR16", "EIR16D", "MOA4"]
     },
     "R15 + R16 + MOA4/5": {
-      "airspaces": ["EIR15", "EIR16", "MOA4", "MOA5"]
+      "airspaces": ["EIR15", "EIR16", "EIR16D", "MOA4", "MOA5"]
     },
     "R15 + R16 + MOA3/4/5": {
-      "airspaces": ["EIR15", "EIR16", "MOA3", "MOA4", "MOA5"]
+      "airspaces": ["EIR15", "EIR16", "EIR16D", "MOA3", "MOA4", "MOA5"]
     }
   }
 }
+
 

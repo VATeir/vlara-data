@@ -396,8 +396,8 @@
             "properties": {
                 "name": "EIR16D",
                 "type": "R",
-                "lowerFL": 0,
-                "upperFL": 240,
+                "lowerFL": 15,
+                "upperFL": 45,
                 "mustBeBookedWith": [
                     "EIR15",
                     "EIR16"
@@ -681,3 +681,4 @@
         }
     ]
 }
+
